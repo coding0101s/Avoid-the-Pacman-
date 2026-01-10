@@ -1,6 +1,6 @@
 import pygame
 from ..config import display
-from .funcs.player_func import speed, player_move
+from .funcs.player_func import speed, player_move_input, player_move, player_bounce_on_wall
 
 pygame.init()
 
