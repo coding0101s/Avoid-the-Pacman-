@@ -5,7 +5,7 @@ import game.char as char
 pygame.init()
 
 screen = pygame.display.set_mode(config.display.size)
-pygame.display.set_caption('Avoid the Pacman')
+pygame.display.set_caption('Avoid the Pacman!')
 clock = pygame.time.Clock()
 
 running = True
